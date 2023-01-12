@@ -216,6 +216,10 @@
     width: 1rem;
   }
 
+  .img-size {
+    width: 10rem;
+  }
+
 }
 
 @media (max-width: 360px) {
@@ -250,6 +254,10 @@
   .no-select {
     width: .5rem;
     padding: 0;
+  }
+
+  .img-size {
+    width: 7rem;
   }
 
 }
