@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 ::selection {
@@ -31,6 +30,7 @@
   border-radius: 50%;
   position: absolute;
   filter: blur(100px);
+  overflow: hidden;
 }
 
 .purple {
