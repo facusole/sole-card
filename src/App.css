@@ -52,8 +52,22 @@
   padding: 2rem;
 }
 
+.bg-card-img {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-60%, -50%);
+  rotate: 10deg;
+  opacity: .08;
+}
+
+.vite-logo {
+  width: 20rem;
+}
+
 .card {
-  border-radius: 24px;
+  border: 1px solid black;
+  border-radius: 1.5rem;
   padding: 1rem;
   width: 800px;
   aspect-ratio: 16/9;
@@ -66,7 +80,7 @@
 
 .img-size {
   width: 15rem;
-  border-radius: 8px;
+  border-radius: .5rem;
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: 45%;
@@ -125,6 +139,10 @@
     gap: 3rem;
   }
 
+  .vite-logo {
+    width: 14rem;
+  }
+
   .bg-circle {  
     width: 500px;
   }
@@ -153,6 +171,11 @@
     width: 450px;
     gap: 1rem;
   }
+
+  .vite-logo {
+    width: 7rem;
+  }
+
 
   .bg-circle {  
     width: 350px;
@@ -185,6 +208,10 @@
   .card {
     width: 350px;
     gap: 1rem;
+  }
+
+  .vite-logo {
+    width: 6rem;
   }
 
   .bg-circle {  

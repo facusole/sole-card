@@ -2,6 +2,7 @@ import React from 'react'
 import Tilt from 'react-parallax-tilt'
 import Yo from './assets/yo.png'
 import logo from './assets/logo.svg'
+import vite from './assets/vite.svg'
 
 import { BrandLinkedin, BrandGithub, BrandHtml5, BrandCss3, BrandReact} from 'tabler-icons-react';
 
@@ -14,8 +15,9 @@ function App() {
     <div className="App">
       <div className="bg-circle purple"></div>
       <div className="bg-circle orange"></div>
-      <Tilt className='tilt-container' tiltReverse='true' transitionEasing='cubic-bezier(.05,.22,.53,.81)'>
+      <Tilt className='tilt-container' tiltReverse='true' transitionEasing='cubic-bezier(.05,.22,.53,.81)' perspective='3000'>
         <div className='card'>
+          <div className="bg-card-img"><img src={vite} className='vite-logo'/></div>
           <img src={Yo} alt="Facundo Solé" className='img-size'/>
 
           <div className="info-container">
