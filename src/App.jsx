@@ -17,7 +17,7 @@ function App() {
       <div className="bg-circle orange"></div>
       <Tilt className='tilt-container' tiltReverse='true' transitionEasing='cubic-bezier(.05,.22,.53,.81)' perspective='3000'>
         <div className='card'>
-          <div className="bg-card-img"><img src={vite} className='vite-logo'/></div>
+          
           <img src={Yo} alt="Facundo Solé" className='img-size'/>
 
           <div className="info-container">
@@ -36,6 +36,8 @@ function App() {
                 <BrandCss3 className='no-select' size={32} strokeWidth={2} color={'#264de4'}/>
                 <BrandReact className='no-select' size={32} strokeWidth={2} color={'#61DBFB'}/></span></li>
             </ul>
+
+            <div className="bg-card-img"><img src={vite} className='vite-logo'/></div>
 
           </div>
         </div>
