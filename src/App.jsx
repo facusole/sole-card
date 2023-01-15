@@ -1,6 +1,6 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt'
-import Yo from './assets/yo.png'
+import Yo from './assets/yo.jpg'
 import logo from './assets/logo.svg'
 import vite from './assets/vite.svg'
 
