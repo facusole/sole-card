@@ -135,6 +135,11 @@
   user-select: none;
 }
 
+.link-decoration {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 900px) {
   .card {
     width: 600px;
