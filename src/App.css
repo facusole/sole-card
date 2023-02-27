@@ -138,6 +138,8 @@
 .link-decoration {
   text-decoration: none;
   color: black;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 900px) {

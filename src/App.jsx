@@ -28,10 +28,10 @@ function App() {
             </div>
 
             <ul className='info-list'>
-              <li><span className="social-link"><a href="http://facundosole.com.ar" target="_blank" rel="noopener noreferrer" className='link-decoration'>Web Portfolio<img className='logo-size no-select' src={logo} alt="portfolio logo" /></a></span></li>
+              <li><span className="social-link"><a href="http://facundosole.com.ar" target="_blank" rel="noopener noreferrer" className='link-decoration'>Web Portfolio <img className='logo-size no-select' src={logo} alt="portfolio logo" /></a></span></li>
               <li><span className='social-link'><a href="https://www.linkedin.com/in/facundo-sole/" target="_blank" rel="noopener noreferrer" className='link-decoration'>LinkedIn <BrandLinkedin className='no-select' size={32} strokeWidth={2} color={'#0072b1'}/></a></span></li>
               <li><span className='social-link'><a href="https://www.linkedin.com/in/facundo-sole/" target="_blank" rel="noopener noreferrer" className='link-decoration'>Github <BrandGithub className='no-select' size={32} strokeWidth={2} color={'#000'}/></a></span></li>
-              <li><span className='social-link'>TechStack:
+              <li><span className='social-link'>TechStack
                 <BrandHtml5 className='no-select' size={32} strokeWidth={2} color={'#e34c26'}/>
                 <BrandCss3 className='no-select' size={32} strokeWidth={2} color={'#264de4'}/>
                 <BrandReact className='no-select' size={32} strokeWidth={2} color={'#61DBFB'}/></span></li>
